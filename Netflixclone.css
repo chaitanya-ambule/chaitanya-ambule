@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "papping",sans-serif;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 5%;
+    border-radius: 5px;
+
+    z-index: 10;
+}
+.navbar-netflix{
+    width: 220px;
+    height: 95px;
+}
+.navbar__nav__items{
+    display: flex;
+    gap: 20px;
+}
+.Netflix-logo{
+    width: 90%;
+    height: 90px;
+    margin-right: 10px;
+}
+.language_drop_down{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.dropdown__container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius:0.4rem;
+    background: rgba(0,0,0,0.4);
+}
+.SingIn__button{
+    border:red;
+    background-color:red;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.4rem;
+    height: 30px;
+    width: 90px;
+}
+.hero-bg-img-container{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.hero-bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-bg-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+.hero-card{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 3rem ;
+}
+.hero-subtitle,
+.hero-description{
+   font-weight: 400;
+   font-size: 1.3rem;
+}
+.email{
+    width: 425px;
+    height: 50px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius:4px;
+    border-color: white;
+}
+.get-started{
+    font-size: large;
+    color: white;
+    width: 170px;
+    height: 50px;
+    background-color: red;
+    border: 10px solid red ;
+    border: 1px solid white;
+
+}
+.card-1,
+.card-2,
+.card-3{
+    border-top: 80px rgb(69,69,69);
+    padding: 50px;
+}
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: center;
+    align-items: center;
+    padding:25px 40px 50px;
+    
+}
+.img-1{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 70px;  
+}
+/* .card-1 iframe{
+    position: relative;
+    width: 100%;
+    height:54%;
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    z-index:1;
+} */
+.card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 60%;
+    text-align: center;
+    align-items: center;
+    padding:25px 40px 50px;
+}
+.img-3{
+    position: relative;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 60%;
+    text-align: center;
+    align-items: center;
+    padding:25px 40px 50px;
+}
+.img-2{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 60px;
+    
+}
+
+
+.style-card{
+    border: 2px solid white;
+}
+.img-1,
+.img-2,
+.img-3{
+    border: 2px solid white;
+    width: 570px;
+}
+.footer,
+.footer a{
+    color: gray;
+    font-size: 0.9rem;
+}
+.footer p{
+    margin-bottom: 2rem;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.footer li{
+    line-height: 1.9;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
